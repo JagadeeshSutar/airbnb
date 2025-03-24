@@ -210,4 +210,7 @@ body {
     margin: 30px;
     width: 90vw;
   }
+  .ratingCard {
+    width: 85vw;
+  }
 }
