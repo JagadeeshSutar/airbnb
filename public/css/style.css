@@ -65,13 +65,16 @@ body {
 .listing-card {
   border: none !important;
   margin-bottom: 2rem;
+  width: 25rem;
 }
 
 .card-img-top {
   border-radius: 1rem !important;
   object-fit: cover !important;
 }
-
+.show-card {
+  width: 18rem;
+}
 .card-body {
   padding: 0 !important;
 }
@@ -134,12 +137,6 @@ body {
 }
 
 @media (max-width: 576px) {
-  body {
-    background-color: yellow !important;
-  }
-  footer {
-    /* display: none !important; */
-  }
   .respLogin {
     margin: 30px !important;
   }
@@ -155,5 +152,62 @@ body {
   .navbar * {
     background-color: white;
     margin-bottom: 10px;
+  }
+  .f-info {
+    height: 10vh;
+  }
+  .alert-success {
+    width: 100%;
+    margin: 0;
+  }
+  .card-img-overlay {
+    width: 90vw;
+  }
+  .listing-card {
+    width: 90vw;
+  }
+  .listing-card img {
+    width: 94vw;
+  }
+  .card-body {
+    width: 100vw;
+  }
+  #map {
+    height: 400px;
+    width: 30vw;
+  }
+  .show-card {
+    margin: 30px;
+    width: 90vw;
+  }
+  .show-card img {
+    width: 80vw;
+  }
+  .card-body {
+    width: 80vw;
+  }
+  .btns {
+  }
+  .btns a {
+    height: 10vw;
+    width: 30vw;
+    margin: 0;
+    margin-left: 20px;
+  }
+  .review {
+    margin: 20px;
+    width: 90vw;
+  }
+  .editReview {
+    margin: 20px;
+    width: 90vw;
+  }
+  .listingHeading {
+    width: 90vw;
+    margin: 20px 15px 0px 15px;
+  }
+  .signupShow {
+    margin: 30px;
+    width: 90vw;
   }
 }
