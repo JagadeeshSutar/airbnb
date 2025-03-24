@@ -24,12 +24,20 @@
     />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/rating.css" />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+
     <title>Wanderlust</title>
   </head>
   <body>
-    <%- include("../includes/navbar.ejs") %>
-    <div class="conainer">
-      <%- include("../includes/flash.ejs") %> <%- body %>
+    <div class="wrapper">
+      <%- include("../includes/navbar.ejs") %>
+      <div class="conainer">
+        <%- include("../includes/flash.ejs") %> <%- body %>
+      </div>
     </div>
     <%- include("../includes/footer.ejs") %>
     <script

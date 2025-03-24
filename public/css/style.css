@@ -7,7 +7,11 @@
   background-color: pink;
 } */
 
+html,
 body {
+  height: 100%;
+}
+.wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -104,12 +108,27 @@ body {
   height: 30vh;
   width: 40vw;
 }
- 
-.btns{
+
+.btns {
   display: flex;
 }
 
-.show-card{
+.show-card {
   padding-left: 0;
   padding-right: 0%;
+}
+
+/* Map */
+#map {
+  height: 400px;
+  width: 80vh;
+}
+
+.alreadyLogin {
+  display: flex;
+  justify-content: center;
+}
+
+.alreadyLogin p {
+  margin-right: 10px;
 }
