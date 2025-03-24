@@ -132,3 +132,28 @@ body {
 .alreadyLogin p {
   margin-right: 10px;
 }
+
+@media (max-width: 576px) {
+  body {
+    background-color: yellow !important;
+  }
+  footer {
+    /* display: none !important; */
+  }
+  .respLogin {
+    margin: 30px !important;
+  }
+  .respLogin-outer {
+    width: 100vw;
+    margin: 0;
+  }
+  .alreadyLogin {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar * {
+    background-color: white;
+    margin-bottom: 10px;
+  }
+}
