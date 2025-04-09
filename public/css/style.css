@@ -148,6 +148,20 @@ body {
     display: flex;
     justify-content: center;
   }
+  .navbar {
+    height: 50px;
+  }
+
+  .navbar .container-fluid {
+    height: 50px;
+  }
+
+  .navbar-toggler {
+    height: 10px;
+    margin: 0;
+    border: none;
+    margin-bottom: 30px;
+  }
 
   .navbar * {
     background-color: white;
